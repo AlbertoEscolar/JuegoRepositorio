@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="40" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="124">
+ <tileset firstgid="1" source="bloque1.tsx"/>
+ <tileset firstgid="26" source="bloque2.tsx"/>
+ <tileset firstgid="51" source="bloque3.tsx"/>
+ <layer id="1" name="negro" width="40" height="8" offsetx="2" offsety="1">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALaAEYgZgJiZiBmIYINw0wEMEwfpRgAKTQAfw==
+  </data>
+ </layer>
+ <objectgroup id="8" name="cangrejos"/>
+ <objectgroup id="9" name="pulpos"/>
+ <layer id="2" name="verde" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRCQAFAAAB
+  </data>
+ </layer>
+ <layer id="3" name="naranja" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRCQAFAAAB
+  </data>
+ </layer>
+ <objectgroup id="7" name="minas" offsetx="0" offsety="-2"/>
+ <objectgroup id="4" name="monedas">
+  <object id="118" x="412" y="200">
+   <ellipse/>
+  </object>
+  <object id="119" x="463" y="201">
+   <ellipse/>
+  </object>
+  <object id="120" x="496" y="195">
+   <ellipse/>
+  </object>
+  <object id="121" x="615" y="189" width="4" height="1">
+   <ellipse/>
+  </object>
+  <object id="122" x="708" y="200">
+   <ellipse/>
+  </object>
+  <object id="123" x="585" y="199">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
